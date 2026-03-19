@@ -22,6 +22,10 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    hongniuzy3: {
+        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
+        name: '红牛资源'
+    },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
@@ -34,7 +38,7 @@ const API_SITES = {
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
-        name: '360资源',
+        name: '三六零资源',
         detail: 'https://360zy.com'
     },
     wolong: {
@@ -64,96 +68,92 @@ const API_SITES = {
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源',
+        name: '鸡哥资源',
         detail: 'https://ikunzyapi.com'
     },
     wujinapi_cc: {
         api: 'https://api.wujinapi.cc/api.php/provide/vod',
-        name: 'TV-wujinapi无尽',
+        name: '无尽资源',
         detail: ''
     },
     wolongzyw: {
         api: 'https://collect.wolongzyw.com/api.php/provide/vod',
-        name: 'TV-卧龙点播',
+        name: '卧龙点播',
         detail: 'https://collect.wolongzyw.com'
     },
      wolongzy_cc: {
         api: 'https://collect.wolongzy.cc/api.php/provide/vod',
-        name: 'TV-卧龙资源',
+        name: '卧龙资源',
         detail: ''
     },
     xinlangapi: {
         api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
-        name: 'TV-新浪点播',
+        name: '新浪点播',
         detail: 'https://api.xinlangapi.com'
     },
     wujinapi_com: {
         api: 'https://api.wujinapi.com/api.php/provide/vod',
-        name: 'TV-无尽资源',
+        name: '无尽资源',
         detail: ''
     },
     wujinapi_net: {
         api: 'https://api.wujinapi.net/api.php/provide/vod',
-        name: 'TV-无尽资源',
+        name: '无尽资源',
         detail: ''
     },
     zuidazy: {
         api: 'http://zuidazy.me/api.php/provide/vod',
-        name: 'TV-最大点播',
+        name: '最大点播',
         detail: 'http://zuidazy.me'
     },
     zyku_json: {
         api: 'https://api.1080zyku.com/inc/apijson.php/',
-        name: 'TV-神马云',
+        name: '神马云资源',
         detail: 'https://api.1080zyku.com'
     },
     hongniuzy2: {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod',
-        name: 'TV-红牛资源',
+        name: '红牛资源',
         detail: 'https://www.hongniuzy2.com'
     },
     huyaapi: {
         api: 'https://www.huyaapi.com/api.php/provide/vod',
-        name: 'TV-虎牙资源',
+        name: '虎牙资源',
         detail: 'https://www.huyaapi.com'
     },
     subocaiji: {
         api: 'https://subocaiji.com/api.php/provide/vod',
-        name: 'TV-速博资源',
+        name: '速博资源',
         detail: ''
     },
     jinyingzy: {
         api: 'https://jinyingzy.com/api.php/provide/vod',
-        name: 'TV-金鹰点播',
+        name: '金鹰点播',
         detail: 'https://jinyingzy.com'
     },
     jyzyapi: {
         api: 'https://jyzyapi.com/api.php/provide/vod',
-        name: 'TV-金鹰资源',
+        name: '金鹰资源',
         detail: 'https://jyzyapi.com'
     },
     p2100: {
         api: 'https://p2100.net/api.php/provide/vod',
-        name: 'TV-飘零资源',
+        name: '飘零资源',
         detail: 'https://p2100.net'
     },
     moduapi: {
         api: 'https://caiji.moduapi.cc/api.php/provide/vod',
-        name: 'TV-魔都动漫',
+        name: '魔都动漫',
         detail: 'https://caiji.moduapi.cc'
     },
     mdzyapi: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: 'TV-魔都资源',
+        name: '魔都资源',
         detail: 'https://www.mdzyapi.com'
-    },
-    hongniuzy3: {
-        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
-        name: '红牛资源'
     },
     jyzyapi_provide: {
         api: 'https://jyzyapi.com/provide/vod',
-        name: '金鹰资源采集网'
+        name: '金鹰资源'
     },
     xiaojizy: {
         api: 'https://api.xiaojizy.live/provide/vod',

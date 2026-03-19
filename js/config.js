@@ -22,9 +22,10 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    hongniuzy3: {
-        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
-        name: '红牛资源'
+    wujinapi_com: {
+        api: 'https://api.wujinapi.com/api.php/provide/vod',
+        name: '无尽资源',
+        detail: ''
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
@@ -91,11 +92,6 @@ const API_SITES = {
         name: '新浪点播',
         detail: 'https://api.xinlangapi.com'
     },
-    wujinapi_com: {
-        api: 'https://api.wujinapi.com/api.php/provide/vod',
-        name: '无尽资源',
-        detail: ''
-    },
     wujinapi_net: {
         api: 'https://api.wujinapi.net/api.php/provide/vod',
         name: '无尽资源',
@@ -150,6 +146,10 @@ const API_SITES = {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源',
         detail: 'https://www.mdzyapi.com'
+    },
+    hongniuzy3: {
+        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
+        name: '红牛资源'
     },
     jyzyapi_provide: {
         api: 'https://jyzyapi.com/provide/vod',

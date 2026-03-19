@@ -25,18 +25,22 @@ const API_SITES = {
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
+        detail: ''
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
+        detail: ''
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
+        detail: 'https://360zy.com'
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
+        detail: 'https://wolongzyw.com',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
@@ -45,25 +49,117 @@ const API_SITES = {
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源'
+        name: '最大资源',
+        detail: 'https://api.zuidapi.com',
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源'
+        name: '百度云资源',
+        detail: 'https://api.apibdzy.com',
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源'
+        name: '无尽资源',
+        detail: ''
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
+        name: 'iKun资源',
+        detail: 'https://ikunzyapi.com'
+    },
+    wujinapi_cc: {
+        api: 'https://api.wujinapi.cc/api.php/provide/vod',
+        name: 'TV-wujinapi无尽',
+        detail: ''
+    },
+    wolongzyw: {
+        api: 'https://collect.wolongzyw.com/api.php/provide/vod',
+        name: 'TV-卧龙点播',
+        detail: 'https://collect.wolongzyw.com'
+    },
+     wolongzy_cc: {
+        api: 'https://collect.wolongzy.cc/api.php/provide/vod',
+        name: 'TV-卧龙资源',
+        detail: ''
+    },
+    xinlangapi: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
+        name: 'TV-新浪点播',
+        detail: 'https://api.xinlangapi.com'
+    },
+    wujinapi_com: {
+        api: 'https://api.wujinapi.com/api.php/provide/vod',
+        name: 'TV-无尽资源',
+        detail: ''
+    },
+    wujinapi_net: {
+        api: 'https://api.wujinapi.net/api.php/provide/vod',
+        name: 'TV-无尽资源',
+        detail: ''
+    },
+    zuidazy: {
+        api: 'http://zuidazy.me/api.php/provide/vod',
+        name: 'TV-最大点播',
+        detail: 'http://zuidazy.me'
+    },
+    zyku_json: {
+        api: 'https://api.1080zyku.com/inc/apijson.php/',
+        name: 'TV-神马云',
+        detail: 'https://api.1080zyku.com'
+    },
+    hongniuzy2: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+        name: 'TV-红牛资源',
+        detail: 'https://www.hongniuzy2.com'
+    },
+    huyaapi: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod',
+        name: 'TV-虎牙资源',
+        detail: 'https://www.huyaapi.com'
+    },
+    subocaiji: {
+        api: 'https://subocaiji.com/api.php/provide/vod',
+        name: 'TV-速博资源',
+        detail: ''
+    },
+    jinyingzy: {
+        api: 'https://jinyingzy.com/api.php/provide/vod',
+        name: 'TV-金鹰点播',
+        detail: 'https://jinyingzy.com'
+    },
+    jyzyapi: {
+        api: 'https://jyzyapi.com/api.php/provide/vod',
+        name: 'TV-金鹰资源',
+        detail: 'https://jyzyapi.com'
+    },
+    p2100: {
+        api: 'https://p2100.net/api.php/provide/vod',
+        name: 'TV-飘零资源',
+        detail: 'https://p2100.net'
+    },
+    moduapi: {
+        api: 'https://caiji.moduapi.cc/api.php/provide/vod',
+        name: 'TV-魔都动漫',
+        detail: 'https://caiji.moduapi.cc'
+    },
+    mdzyapi: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
+        name: 'TV-魔都资源',
+        detail: 'https://www.mdzyapi.com'
+    },
+    hongniuzy3: {
+        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
+        name: '红牛资源'
+    },
+    jyzyapi_provide: {
+        api: 'https://jyzyapi.com/provide/vod',
+        name: '金鹰资源采集网'
+    },
+    xiaojizy: {
+        api: 'https://api.xiaojizy.live/provide/vod',
+        name: '小鸡资源',
+        adult: true
     }
-//    testSource: {
-//        api: 'https://www.example.com/api.php/provide/vod',
-//        name: '空内容测试源',
-//        adult: true
-//    },
 };
 
 // 定义合并方法
